@@ -1,11 +1,11 @@
-#  Algoritmos e Lógica de Programação (ALC1)
+#  Algoritmos e Lógica de Programação (ALC1) [2026-2]
 ## Instituto Federal de Educação, Ciência e Tecnologia de São Paulo, IFSP Campus Salto
 
 ![Language](https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-The_Huxley-00B4D8?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Em_Andamento-brightgreen?style=for-the-badge)
 
-Repositório dedicado ao armazenamento de códigos, exercícios práticas e anotações desenvolvidas durante as aulas da disciplina de **Algoritmos e Lógica de Programação (ALC1)** do curso de **Análise e Desenvolvimento de Sistemas (ADS)**.
+> Repositório dedicado ao armazenamento de códigos, exercícios práticos e anotações desenvolvidas durante as aulas da disciplina de **Algoritmos e Lógica de Programação (ALC1)** do curso de **Análise e Desenvolvimento de Sistemas (ADS)**.
 
 ---
 
