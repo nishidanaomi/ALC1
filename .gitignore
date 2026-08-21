@@ -1,10 +1,13 @@
-# Executáveis do Windows
+# Executáveis do Windows e Linux
 *.exe
+*.out
+*.app
 
-# Arquivos de compilação intermediários
+# Arquivos de objetos/compilação intermediários
 *.o
 *.obj
 
-# Arquivos de projeto do Code::Blocks
+# Arquivos de projeto do Code::Blocks / Dev-C++ / VS Code
 *.depend
 *.layout
+.vscode/
