@@ -1,0 +1,10 @@
+# Executáveis do Windows
+*.exe
+
+# Arquivos de compilação intermediários
+*.o
+*.obj
+
+# Arquivos de projeto do Code::Blocks
+*.depend
+*.layout
