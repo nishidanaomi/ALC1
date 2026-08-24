@@ -1,0 +1,32 @@
+/*
+Construa um programa que receba como entrada a quantidade de votos (alcançados na pesquisa) de 3 candidatos e a  quantidade de votos nulos. O programa deverá imprimir a porcentagem de votos dos 3 candidatos e de votos nulos.
+Entrada: Quatro números inteiros representando a quantidade de votos dos 3 candidatos e a quantidade de votos nulos.
+Saída: A porcentagem dos votos.
+Exemplo de entrada:
+200
+150
+600
+36
+Exemplo de saída:
+Candidato A: 20%
+Candidato B: 20%
+Candidato C: 20%
+Nulos: 20%
+*/
+
+#include <stdio.h>
+
+int main() {
+    int c1, c2, c3, nulo, total;
+    scanf("%d %d %d %d", &c1, &c2, &c3, &nulo);
+
+    total = c1+c2+c3+nulo;
+    c1 = (c1*100)/total;
+    c2 = (c2*100)/total;
+    c3 = (c3*100)/total;
+    nulo = (nulo*100)/total;
+
+    printf("Candidato A: %d%%\nCandidato B: %d%%\nCandidato C: %d%%\nNulos: %d%%", c1, c2, c3, nulo);
+
+    return 0;
+}
