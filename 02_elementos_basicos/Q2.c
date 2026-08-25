@@ -9,16 +9,16 @@ Exemplo de entrada:
 36
 Exemplo de saída:
 Candidato A: 20%
-Candidato B: 20%
-Candidato C: 20%
-Nulos: 20%
+Candidato B: 15%
+Candidato C: 60%
+Nulos: 3%
 */
 
 #include <stdio.h>
 
 int main() {
-    int c1, c2, c3, nulo, total;
-    scanf("%d %d %d %d", &c1, &c2, &c3, &nulo);
+    double c1, c2, c3, nulo, total;
+    scanf("%lf %lf %lf %lf", &c1, &c2, &c3, &nulo);
 
     total = c1+c2+c3+nulo;
     c1 = (c1*100)/total;
@@ -26,7 +26,10 @@ int main() {
     c3 = (c3*100)/total;
     nulo = (nulo*100)/total;
 
-    printf("Candidato A: %d%%\nCandidato B: %d%%\nCandidato C: %d%%\nNulos: %d%%", c1, c2, c3, nulo);
+    printf("Candidato A: %.0lf%%\n", c1);
+    printf("Candidato B: %.0lf%%\n", c2);
+    printf("Candidato C: %.0lf%%\n", c3);
+    printf("Nulos: %.0lf%%\n", nulo);
 
     return 0;
 }
