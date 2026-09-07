@@ -1,7 +1,7 @@
 /*
-Elabore um programa que calcule três vezes a média entre dois números, utilizando a seguinte expressão: média = média de (média de ( média de A e B) e A) e A
-Entrada: A entrada consiste de dois números inteiros A e B.
-Saída: A média calculada com duas casas decimais.
+Elabore um programa que calcule trÃªs vezes a mÃ©dia entre dois nÃºmeros, utilizando a seguinte expressÃ£o: mÃ©dia = mÃ©dia de (mÃ©dia de ( mÃ©dia de A e B) e A) e A
+Entrada: A entrada consiste de dois nÃºmeros inteiros A e B.
+SaÃ­da: A mÃ©dia calculada com duas casas decimais.
 */
 
 #include <stdio.h>
@@ -10,9 +10,9 @@ int main(){
     double media;
     scanf("%d %d", &A, &B);
 
-    media = (A+B)/2;
-    media = (media+A)/2;
-    media = (media+A)/2;
+    media = (A+B)/2.0;
+    media = (media+A)/2.0;
+    media = (media+A)/2.0;
 
     printf("%.2lf", media);
 
