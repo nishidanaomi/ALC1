@@ -1,9 +1,10 @@
-/*Imagine que você tenha uma máquina do tempo que pode ser usada no máximo três vezes, e a cada uso da máquina você pode escolher voltar para o passado ou ir para o futuro. A máquina possui três créditos fixos; cada crédito representa uma certa quantidade de anos, e pode ser usado para ir essa quantidade de anos para o passado ou para o futuro. Você pode fazer uma, duas ou três viagens, e a cada um desses três créditos pode ser usado uma vez apenas. Por exemplo, se os créditos forem 5, 12 e 9, você poderia decidir fazer duas viagens: ir 5 anos para o futuro e, depois, voltar 9 anos para o passado. Dessa forma, você terminaria quatro anos no passado, terminando em 2022. Também poderia fazer três viagens, todas indo para o futuro, usando os créditos em qualquer ordem, terminando em 2052.
-Neste problema, dados os valores dos três créditos da máquina, seu programa deve dizer se é ou não possível viajar no tempo e voltar para o presente, fazendo pelo menos uma viagem e, no máximo, três viagens; sempre usando cada um dos três créditos no máximo uma vez.
-Entrada: A entrada consiste de uma linha contendo os valores dos três créditos A, B e C.
-Saída: Seu programa deve imprimir uma linha contendo o caracter "S" se é possível viajar para o presente, ou "N" caso contrário.*/
+/*Imagine que vocÃª tenha uma mÃ¡quina do tempo que pode ser usada no mÃ¡ximo trÃªs vezes, e a cada uso da mÃ¡quina vocÃª pode escolher voltar para o passado ou ir para o futuro. A mÃ¡quina possui trÃªs crÃ©ditos fixos; cada crÃ©dito representa uma certa quantidade de anos, e pode ser usado para ir essa quantidade de anos para o passado ou para o futuro. VocÃª pode fazer uma, duas ou trÃªs viagens, e a cada um desses trÃªs crÃ©ditos pode ser usado uma vez apenas. Por exemplo, se os crÃ©ditos forem 5, 12 e 9, vocÃª poderia decidir fazer duas viagens: ir 5 anos para o futuro e, depois, voltar 9 anos para o passado. Dessa forma, vocÃª terminaria quatro anos no passado, terminando em 2022. TambÃ©m poderia fazer trÃªs viagens, todas indo para o futuro, usando os crÃ©ditos em qualquer ordem, terminando em 2052.
+Neste problema, dados os valores dos trÃªs crÃ©ditos da mÃ¡quina, seu programa deve dizer se Ã© ou nÃ£o possÃ­vel viajar no tempo e voltar para o presente, fazendo pelo menos uma viagem e, no mÃ¡ximo, trÃªs viagens; sempre usando cada um dos trÃªs crÃ©ditos no mÃ¡ximo uma vez.
+Entrada: A entrada consiste de uma linha contendo os valores dos trÃªs crÃ©ditos A, B e C.
+SaÃ­da: Seu programa deve imprimir uma linha contendo o caracter "S" se Ã© possÃ­vel viajar para o presente, ou "N" caso contrÃ¡rio.*/
 
 #include <stdio.h>
+
 int main(){
     int A, B, C;
     scanf("%d %d %d", &A, &B, &C);
@@ -12,7 +13,7 @@ int main(){
         printf("S\n");
     }
     else if(A+B==C||A+C==B||B+C==A){
-    printf("S\n");
+        printf("S\n");
     }
     else{
         printf("N\n");
