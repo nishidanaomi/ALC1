@@ -14,6 +14,7 @@ int main(){
     else{
         valor = (90.0*dias)+(12.0*(km-(dias*100)));
     }
+    
     printf("%.2lf", valor);
 
     return 0;
