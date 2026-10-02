@@ -11,6 +11,7 @@ Saída: A saída consiste de uma linha informando o percentual de atividades cumpr
 */
 
 #include <stdio.h>
+
 int main(){
     int total, feito;
     double perc;

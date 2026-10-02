@@ -12,7 +12,7 @@ int main(){
         printf("S\n");
     }
     else if(A+B==C||A+C==B||B+C==A){
-    printf("S\n");
+        printf("S\n");
     }
     else{
         printf("N\n");
