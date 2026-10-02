@@ -1,8 +1,8 @@
-/*A Locadora de VeÌculos Eudora lanÁou uma grande promoÁ„o esse mÍs: pagando apenas R$90 por di·ria, o cliente pode alugar um carro de passeio. Para cada di·ria, o cliente recebe uma cota de quilometragem de 100Km. Cada quilÙmetro a mais custar· uma taxa extra de R$12. Escreva um programa que receba como entrada a quantidade de dias e a quilometragem total rodada por um cliente dessa locadora e exiba o valor total a ser pago com duas casas decimais.*/
+/*A Locadora de Ve√≠culos Eudora lan√ßou uma grande promo√ß√£o esse m√™s: pagando apenas R$90 por di√°ria, o cliente pode alugar um carro de passeio. Para cada di√°ria, o cliente recebe uma cota de quilometragem de 100Km. Cada quil√¥metro a mais custar√° uma taxa extra de R$12. Escreva um programa que receba como entrada a quantidade de dias e a quilometragem total rodada por um cliente dessa locadora e exiba o valor total a ser pago com duas casas decimais.*/
 
 #include <stdio.h>
-int main(){
 
+int main(){
     int dias, km;
     double valor;
 
@@ -14,6 +14,7 @@ int main(){
     else{
         valor = (90.0*dias)+(12.0*(km-(dias*100)));
     }
+    
     printf("%.2lf", valor);
 
     return 0;
